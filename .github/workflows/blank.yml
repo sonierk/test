@@ -1,4 +1,14 @@
-on: push
+on:
+  push:
+    branches:
+      - main
+      - release
+  pull_request:
+    branches:
+      - bugfix/*
+      - feature/*
+      - hotfix/*
+      - release
 
 name: Jira Example
 
