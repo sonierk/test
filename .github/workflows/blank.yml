@@ -18,4 +18,4 @@ jobs:
       uses: atlassian/gajira-comment@master
       with:
         issue: RKSA-1
-        comment: "pushed to repository"
+        comment: "pushed to repository."
